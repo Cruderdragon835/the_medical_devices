@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.parchmentmc",
+    "module": "feather",
+    "version": "0.6.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.9",
+      "buildId": "ijzmbsfkzbdlrgncxkkrhkl3tu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feather-0.6.5.jar",
+          "url": "feather-0.6.5.jar",
+          "size": 92745,
+          "sha512": "327eead449f0ad6a254ccb1385779396325c345a4c8541e256d4c9ebeeb4db2b3be995b8708e07a55d3799b9b533b489a7dea72916acc678253d0ec9589b55a4",
+          "sha256": "5e328391fbc6728cceb0878be40433b1a55aac248594260fcf0bb10f2631333e",
+          "sha1": "38852a16b4adf974081beea0af1e2d2e81b337ab",
+          "md5": "a6a158bc7d12765f82f9d8e8d866df48"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "org.checkerframework",
+          "module": "checker-qual",
+          "version": {
+            "requires": "3.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feather-0.6.5.jar",
+          "url": "feather-0.6.5.jar",
+          "size": 92745,
+          "sha512": "327eead449f0ad6a254ccb1385779396325c345a4c8541e256d4c9ebeeb4db2b3be995b8708e07a55d3799b9b533b489a7dea72916acc678253d0ec9589b55a4",
+          "sha256": "5e328391fbc6728cceb0878be40433b1a55aac248594260fcf0bb10f2631333e",
+          "sha1": "38852a16b4adf974081beea0af1e2d2e81b337ab",
+          "md5": "a6a158bc7d12765f82f9d8e8d866df48"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "feather-0.6.5-javadoc.jar",
+          "url": "feather-0.6.5-javadoc.jar",
+          "size": 244931,
+          "sha512": "265507566f619db0cf809046ca08f4d835652a116f2699c17bfe919367f85acb546e9aa59d083489f052fb7fff4e68c519ebea3b8e17a69401367a1a3dd3378a",
+          "sha256": "56578dce3c65ec918f2caf650dfba3fceb4e3512165b12048c606b8965db3e86",
+          "sha1": "bdc1f169e3a89aa9b0a9510edd77bbb48eb5fe00",
+          "md5": "856732c99c9498bd4800a8d39be51327"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "feather-0.6.5-sources.jar",
+          "url": "feather-0.6.5-sources.jar",
+          "size": 43779,
+          "sha512": "b318709790f8ad975c306bc11dd865c45c0e9b1fb1693e64ecb56310c57d79ea6eb5821aea50f167096e91b59b1739ca7ac5b271ba21b4aea26e327f12329a99",
+          "sha256": "de3ea1cf5cfefdbac76507ac4828fef6348188522e3d5b503af59a5f26dcab38",
+          "sha1": "0c7f152db10dd955953709578fad41cf1aaeaa6c",
+          "md5": "a85eba14b66feddd6f327b3452dff899"
+        }
+      ]
+    }
+  ]
+}
