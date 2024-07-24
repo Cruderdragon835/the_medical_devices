@@ -1,0 +1,246 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.minecraftforge.gradle",
+    "module": "ForgeGradle",
+    "version": "6.0.26",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ForgeGradle-6.0.26.jar",
+          "url": "ForgeGradle-6.0.26.jar",
+          "size": 488614,
+          "sha512": "7e40f1fb81b34d74d538d5ceee01e2c743bdf146eee480e31d09716ceabdae96d9f4ed73068642d67c8c687f91d254d6e840b3a7942140f516d9e9d4e091f2c7",
+          "sha256": "cfbc9a84fedd9ab12f315a86e0cc07b4997716b95b2f069dcbd74b9509ab32fc",
+          "sha1": "cb843ddb1cd7db4b9fa1596067116526cc73b948",
+          "md5": "f66be9cd2575fc8fe17e82afdb7a5c96"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "31.1-jre"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "de.siegmar",
+          "module": "fastcsv",
+          "version": {
+            "requires": "2.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "artifactural",
+          "version": {
+            "requires": "3.0.19"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "unsafe",
+          "version": {
+            "requires": "0.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.maven",
+          "module": "maven-artifact",
+          "version": {
+            "requires": "3.9.1"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.5.14"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "srgutils",
+          "version": {
+            "requires": "0.5.10"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "DiffPatch",
+          "version": {
+            "requires": "2.0.12"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "DiffPatch",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "all"
+            }
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "JarJarMetadata",
+          "version": {
+            "requires": "0.3.19"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "JarJarSelector",
+          "version": {
+            "requires": "0.3.19"
+          },
+          "excludes": [
+            {
+              "group": "org.ow2.asm",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "ForgeGradle-6.0.26.jar",
+          "url": "ForgeGradle-6.0.26.jar",
+          "size": 488614,
+          "sha512": "7e40f1fb81b34d74d538d5ceee01e2c743bdf146eee480e31d09716ceabdae96d9f4ed73068642d67c8c687f91d254d6e840b3a7942140f516d9e9d4e091f2c7",
+          "sha256": "cfbc9a84fedd9ab12f315a86e0cc07b4997716b95b2f069dcbd74b9509ab32fc",
+          "sha1": "cb843ddb1cd7db4b9fa1596067116526cc73b948",
+          "md5": "f66be9cd2575fc8fe17e82afdb7a5c96"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ForgeGradle-6.0.26-sources.jar",
+          "url": "ForgeGradle-6.0.26-sources.jar",
+          "size": 212872,
+          "sha512": "5a3f9af0ef9ce6d91fb3888ec48d647e2e06059383bda54a42ce10f3a1326dccbefe04a59953f66aa0ba02eace80019b3e810296db908abb571fcf2d966c6e06",
+          "sha256": "f6063cc9cb4d0f2dd63956d5d326658faa553d668436dc1ddfeaf58b87697b07",
+          "sha1": "da718ad92a32f0e17f5264292429ccc347700350",
+          "md5": "288cafa14e8446a012bc247776c701a0"
+        }
+      ]
+    }
+  ]
+}
