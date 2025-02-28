@@ -1,6 +1,7 @@
 package net.Cruderdragon835.the_medical_devices;
 
 import com.mojang.logging.LogUtils;
+import net.Cruderdragon835.the_medical_devices.items.AdvancedGemItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,11 +25,19 @@ public class the_medical_devices
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        initAll(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
 
         modEventBus.addListener(this::addCreative);
+    }
+
+    //今后注册的物品都在这里，都要加上 类.init(iEventBus)
+    public void initAll(IEventBus iEventBus)
+    {
+        AdvancedGemItem.init(iEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

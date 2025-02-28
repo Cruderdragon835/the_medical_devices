@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_medical_devices:item/advanced_gem_item"
+  }
+}
