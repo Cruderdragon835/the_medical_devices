@@ -33,8 +33,7 @@ public class the_medical_devices {
     }
 
     //今后注册的物品都在这里，都要加上 类.init(iEventBus)
-    public void initAll(IEventBus iEventBus)
-    {
+    public void initAll(IEventBus iEventBus) {
         AdvancedGemItem.init(iEventBus);
     }
 
