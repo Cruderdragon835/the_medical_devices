@@ -16,13 +16,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 @Mod(the_medical_devices.MOD_ID)
-public class the_medical_devices
-{
+public class the_medical_devices {
     public static final String MOD_ID = "the_medical_devices";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public the_medical_devices()
-    {
+    public the_medical_devices() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         initAll(modEventBus);
@@ -40,28 +38,26 @@ public class the_medical_devices
         AdvancedGemItem.init(iEventBus);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
+    private void commonSetup(final FMLCommonSetupEvent event) {
+
     }
 
-    private void addCreative(BuildCreativeModeTabContentsEvent event)
-    {
-        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)
-        {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+
         }
     }
 
     @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
+    public void onServerStarting(ServerStartingEvent event) {
+
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
+    public static class ClientModEvents {
         @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
+        public static void onClientSetup(FMLClientSetupEvent event) {
+
         }
     }
 }
